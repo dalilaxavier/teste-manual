@@ -34,7 +34,7 @@ A ideia é:
 │   ├── 📄 Plano de Testes.md
 │   ├── 📄 Relatorio de Testes.md
 │   ├── 📄 Relatorio de Bugs.md
-│   └── 📄 README.md│
+│   └── 📄 Readme.md│
 └── 📄 README.md
 ```
 ---

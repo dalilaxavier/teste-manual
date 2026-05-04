@@ -1,6 +1,6 @@
 # Relatório de Testes
 
-### 1. Identificação da sessão (ID, data, testador, ambiente)
+### 1. Identificação da sessão 
 
 - Nome do Projeto: Swag Labs
 - Versão Avaliada: Demo pública

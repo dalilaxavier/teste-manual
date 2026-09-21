@@ -49,10 +49,10 @@
  ------------------------ | --------: |
 Casos de teste definidos  |        86 | 
 Casos de teste executados |        83 | 
-Passaram                  |        79 | 
-Falharam                  |        04 |
+Passaram                  |        80 | 
+Falharam                  |        03 | 
 Bloqueados                |        03 |
-Bugs identificados        |        06 |
+Bugs identificados        |        05 |
 Testes exploratórios      |        03 |
 Requisitos avaliados      |        13 |
 
@@ -61,7 +61,7 @@ Requisitos avaliados      |        13 |
 | Requisito | Casos | Passaram | Falharam | Bloqueado |
 | --------- | ----: | -------: | -------: | --------: |
 | RF001     |    15 |       14 |       01 |        00 |
-| RF002     |    05 |       04 |       01 |        00 |
+| RF002     |    05 |       05 |       00 |        00 |
 | RF003     |    03 |       03 |       00 |        00 |
 | RF004     |    15 |       15 |       00 |        00 |
 | RF005     |    06 |       05 |       00 |        01 | 
@@ -78,19 +78,18 @@ Requisitos avaliados      |        13 |
 
 Charters | Módulos                                                        | Bugs           |
 -------- |--------------------------------------------------------------- |--------------- | 
-03       | Novo Agendamento <br> Reagendamento <br> Filtro de Agendamento | B005 <br> B006 |
+03       | Novo Agendamento <br> Reagendamento <br> Filtro de Agendamento | B004 <br> B005 |
 
 
 ## 6. Resumo dos bugs reportados
 
-ID  | Título                                                            | Severidade | Prioridade |
---- |------------------------------------------------------------------ |------------|------------|
+ID   | Título                                                            | Severidade | Prioridade |
+---- |------------------------------------------------------------------ |------------|------------|
 B001 | Página em branco após login com usuário de perfil Lentidão        | Alta       | Alta       |
-B002 | Total de agendamento com status CONCLUÍDO não é exibido           | Alta       | Alta       |
-B003 | O sistema não é restaurado automaticamente para os dados iniciais | Média      | Baixa      |
-B004 | Contraste inferior a 4.5:1 em alguns elementos do Dashboard       | Média      | Média      |
-B005 | Agendamento com horário passado                                   | Média      | Média      |
-B006 | Reagendamento com horário passado                                 | Média      | Média      |
+B002 | O sistema não é restaurado automaticamente para os dados iniciais | Média      | Baixa      |
+B003 | Contraste inferior a 4.5:1 em alguns elementos do Dashboard       | Média      | Média      |
+B004 | Agendamento com horário passado                                   | Média      | Média      |
+B005 | Reagendamento com horário passado                                 | Média      | Média      |
 
 
 ## 7. Métricas
@@ -99,8 +98,8 @@ B006 | Reagendamento com horário passado                                 | Méd
 
 | Status                 | Quantidade | Percentual |
  ------------------------| --------:  | ---------: |
-Passaram                 |         79 |     95,18% |
-Falharam                 |         04 |      4,82% |
+Passaram                 |         80 |     96,38% |
+Falharam                 |         03 |      3,61% |
 
 **Casos bloqueados:**
 | Status                 | Quantidade | Percentual |
